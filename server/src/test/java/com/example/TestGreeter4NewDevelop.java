@@ -19,28 +19,7 @@ public class TestGreeter {
 
   @Test
   public void greetShouldIncludeGreetingPhrase() {
-    String someone = "World0";
-
-    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
-  }
-  
-  @Test
-  public void greetShouldIncludeGreetingPhrase() {
-    String someone = "World1";
-
-    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
-  }
-  
-  @Test
-  public void greetShouldIncludeGreetingPhrase() {
-    String someone = "World2";
-
-    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
-  }
-  
-  @Test
-  public void greetShouldIncludeGreetingPhrase() {
-    String someone = "World3";
+    String someone = "World4";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
@@ -48,6 +27,41 @@ public class TestGreeter {
   @Test
   public void greetShouldIncludeGreetingPhrase() {
     String someone = "World4";
+
+    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
+  }
+  
+  @Test
+  public void greetShouldIncludeGreetingPhrase() {
+    String someone = "World4";
+
+    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
+  }
+  
+  @Test
+  public void greetShouldIncludeGreetingPhrase() {
+    String someone = "sdfsdfsfsdfsfdsdfs4";
+
+    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
+  }
+  
+  @Test
+  public void greetShouldIncludeGreetingPhrase() {
+    String someone = "Wosdfsdfsdfsdfsdfsdf";
+
+    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
+  }
+  
+  @Test
+  public void greetShouldIncludeGreetingPhrase() {
+    String someone = "Worlsdfsdfsdfsdf";
+
+    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
+  }
+  
+  @Test
+  public void greetShouldIncludeGreetingPhrase() {
+    String someone = "Woewrdfsdf";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
