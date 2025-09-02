@@ -19,49 +19,21 @@ public class TestGreeter {
 
   @Test
   public void greetShouldIncludeGreetingPhrase() {
-    String someone = "World4";
+    String someone = "WorldA";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
   
   @Test
   public void greetShouldIncludeGreetingPhrase() {
-    String someone = "World4";
+    String someone = "WorldB";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
-  
-  @Test
-  public void greetShouldIncludeGreetingPhrase() {
-    String someone = "World4";
 
-    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
-  }
-  
   @Test
   public void greetShouldIncludeGreetingPhrase() {
-    String someone = "sdfsdfsfsdfsfdsdfs4";
-
-    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
-  }
-  
-  @Test
-  public void greetShouldIncludeGreetingPhrase() {
-    String someone = "Wosdfsdfsdfsdfsdfsdf";
-
-    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
-  }
-  
-  @Test
-  public void greetShouldIncludeGreetingPhrase() {
-    String someone = "Worlsdfsdfsdfsdf";
-
-    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
-  }
-  
-  @Test
-  public void greetShouldIncludeGreetingPhrase() {
-    String someone = "Woewrdfsdf";
+    String someone = "WorldC";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
